@@ -27,7 +27,7 @@ public class HomeController {
 	public String home(Model model) {
 		logger.info("Welcome home!");
 		model.addAttribute("controllerMessage",
-				"This is the message from the controller!  " + ds.getPassword() + "  " + ds.getUrl());
+				"This is the message from the controller!  " + ds.getPassword() + "  " + ds.getUrl() + "merger happened here");
 		return "home";
 	}
 
